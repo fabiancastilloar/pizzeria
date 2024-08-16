@@ -1,0 +1,64 @@
+.colorRojoaVerde {
+ /* margin: 4ch;*/
+ /* border-style: solid;*/
+ /* border-width: 1px;*/
+  border-color: red green;
+  background: linear-gradient(to right, green, red);
+   padding-top: 3ch; 
+   margin-bottom: 4ch;
+}
+
+.barraVerticalRoja{
+  background: red;
+  padding-left: 3ch;
+}
+
+.barraVerticalVerde{
+background: green;
+padding-left: 3ch;
+}
+
+.button {
+  border-radius: 20px;
+  background-color: black;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+
+.fuente-cursiva-google
+{
+  font-family: 'Sofia', cursive;
+  font-style: italic;
+  font-weight: bolder;
+}
+
+/* ------------------------------------------------------------------------------ */
+.border-vertical-left {
+
+  background-color: green;
+  width: 3ch;
+}
+
+.border-vertical-right {
+  background-color: red;
+  width: 3ch;
+}
+
+
+@media (max-width: 576px) {
+  .border-horizontal {
+      height: 1ch;
+  }
+
+  .border-vertical-left,
+  .border-vertical-right {
+      width: 1ch;
+  }
+
+  .content {
+      padding: 1ch;
+  }
+}
